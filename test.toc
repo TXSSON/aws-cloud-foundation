@@ -1,0 +1,5 @@
+\babel@toc {vietnamese}{}\relax 
+\contentsline {section}{\numberline {1}Chương 1: Đại số tuyến tính}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Định nghĩa ma trận}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Phép nhân ma trận}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Chương 2: Đạo hàm và tích phân}{2}{section.2}%

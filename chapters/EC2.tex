@@ -1,0 +1,93 @@
+\section{EC2 Section}
+
+\subsection{Amazon EC2}
+
+\begin{itemize}
+	\item EC2 is one of the most popular of AWS's offering (EC2 là một trong những sản phẩm nổi tiếng nhất được cung cấp bởi AWS)
+	\item EC2 = Elastic Compute Cloud = Infrastructure as a Service
+	\item It mainly consists in the capability of:(Nó chủ yếu nằm ở khả năng của:)
+	\begin{itemize}
+		\item Renting virtual machines (EC2)
+		\item Sorting data on virtual drives (Sắp xếp dữ liệu trên ổ đĩa ảo)(EBS)
+		\item Distributing load across machines(chia tải công việc ra giữa nhiều máy khác nhau) (ELB)
+		\item Scaling the services using an auto-scaling group (Mở rộng dịch vụ bằng cách sử dụng nhóm tự động mở rộng) (ASG)
+	\end{itemize}
+	\item Knowing  EC2 is fundamental to understand how the Cloud works
+\end{itemize}
+
+\subsection{EC2 sizing \& configuration options}
+
+\begin{itemize}
+	\item Operating System (OS): Linux, Windows or Mac OS
+	\item How much compute power \& cores 
+	\item How much random-access memory
+	\item How much storage space:
+	\begin{itemize}
+		\item Network-attached
+		\item hardware (EC2 Instance Store)
+	\end{itemize}
+	\item Network card:  speed of the card, public IP address
+	\item Firewall rules:security group
+	\item Bootstrap script(configure at first launch): EC2 User Data
+\end{itemize}
+
+\subsection{EC2 User Data}
+
+
+\begin{itemize}
+	\item It is possible to bootstrap our instances using an EC2 User Data script
+	\item bootstrapping means launching commands when a machine start
+	\item That script is only run once at the instance first start 
+	\item EC2 user data is used to automate boot tasks such as: 
+	\begin{itemize}
+		\item Installing updates
+		\item Installing software
+		\item Downloading common files from the internet
+		\item Any thing you can think of
+	\end{itemize}
+	\item The EC2 User Data Script runs with the root user
+\end{itemize}
+
+
+\subsection{EC2 Instance Types - Overview}
+
+\begin{itemize}
+	\item You can use different types of EC2 instances that are optimised  for different use cases
+	\item AWS has following naming convention:
+	\begin{center}
+		m5.2xlarge
+	\end{center} 
+	\item m: instance class
+	\item 5:generation (AWS improves over time)
+	\item 2xlarge: size within instance class
+\end{itemize}
+
+
+\subsection{EC2 Instance Types - General Purpose}
+
+\begin{itemize}
+	\item Great for a diversity workloads such as web servers or code repositories (Tuyệt vời cho nhiều khối lượng công việc khác nhau như máy chủ web hoặc kho lưu trữ mã)
+	\item Balance between:
+	\begin{itemize}
+		\item Compute
+		\item Memory
+		\item Network
+	\end{itemize}
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

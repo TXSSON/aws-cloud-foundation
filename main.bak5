@@ -1,0 +1,17 @@
+\documentclass[12pt]{article}
+\input{preamble.tex}
+
+
+\begin{document}
+
+\input{title.tex}
+\newpage
+
+\tableofcontents
+\newpage
+
+\input{chapters/bai1.tex}
+\input{chapters/bai2.tex}
+\input{chapters/bai3.tex}
+
+\end{document}

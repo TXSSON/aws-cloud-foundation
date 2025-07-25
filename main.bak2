@@ -1,0 +1,28 @@
+\documentclass[12pt]{article}
+\input{preamble.tex}
+
+\newtcolorbox{noteBox}{
+	colback=orange!10,      % màu nền
+	colframe=orange!80!black, % màu viền
+	fonttitle=\bfseries,
+	title=Ghi chú,
+	boxrule=0.8pt,          % độ dày viền
+	arc=4pt,                % bo góc
+	left=6pt, right=6pt, top=6pt, bottom=6pt,
+	enhanced
+}
+
+
+\begin{document}
+
+\input{title.tex}
+\newpage
+
+\tableofcontents
+\newpage
+
+\input{chapters/bai1.tex}
+\input{chapters/bai2.tex}
+\input{chapters/bai3.tex}
+
+\end{document}
