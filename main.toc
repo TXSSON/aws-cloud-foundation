@@ -1,42 +1,65 @@
 \babel@toc {vietnamese}{}\relax 
-\contentsline {section}{\numberline {1}What is Cloud Computing?}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}What is a server composed of?}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}IT Terminology}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Problems with traditional IT approach}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}What is Cloud Computing?}{4}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}You've been using some Could services}{4}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}The Deployment Models of the Cloud}{5}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}The five characteristics of Cloud Computing}{5}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}Six Advantages of Cloud Computing}{6}{subsection.1.8}%
-\contentsline {subsection}{\numberline {1.9}Problems solved by the Could}{6}{subsection.1.9}%
-\contentsline {subsection}{\numberline {1.10}Types of Cloud Computing}{7}{subsection.1.10}%
-\contentsline {subsection}{\numberline {1.11}Example of Cloud Computing Types}{8}{subsection.1.11}%
-\contentsline {subsection}{\numberline {1.12}Pricing of the Cloud - Quick Overview}{8}{subsection.1.12}%
-\contentsline {subsection}{\numberline {1.13}AWS Cloud History}{8}{subsection.1.13}%
-\contentsline {subsection}{\numberline {1.14}AWS Cloud Use Cases}{9}{subsection.1.14}%
-\contentsline {subsection}{\numberline {1.15}AWS Regions}{9}{subsection.1.15}%
-\contentsline {subsection}{\numberline {1.16}How to choose AWS Region?}{9}{subsection.1.16}%
-\contentsline {subsection}{\numberline {1.17}AWS Availability Zones}{10}{subsection.1.17}%
-\contentsline {subsection}{\numberline {1.18}Shared Responsibility Model Diagram}{10}{subsection.1.18}%
-\contentsline {subsection}{\numberline {1.19}AWS Acceptable Use Policy}{11}{subsection.1.19}%
-\contentsline {section}{\numberline {2}IAM - Identity and Access Management}{12}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Users \& Groups}{12}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Permissions}{12}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}IAM Policies inheritance}{13}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}IAM Policies structure}{13}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}IAM Password Policy}{14}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Multi Factor Authentication - MFA}{14}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}MFA devices options in AWS}{15}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}How can users access AWS?}{15}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}What’s the AWS CLI?}{16}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}What’s the AWS SDK?}{16}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}IAM Roles for Services}{16}{subsection.2.11}%
-\contentsline {subsection}{\numberline {2.12}IAM Security Tools}{17}{subsection.2.12}%
-\contentsline {subsection}{\numberline {2.13}IAM Guidelines \& Best Practies}{17}{subsection.2.13}%
-\contentsline {subsection}{\numberline {2.14}Shared Responsibility Model for IAM}{18}{subsection.2.14}%
-\contentsline {subsection}{\numberline {2.15}IAM - Summary}{18}{subsection.2.15}%
-\contentsline {section}{\numberline {3}EC2 Section}{20}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Amazon EC2}{20}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}EC2 sizing \& configuration options}{20}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}EC2 User Data}{20}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}EC2 Instance Types - Overview}{21}{subsection.3.4}%
+\contentsline {section}{\numberline {1}What is Cloud Computing?}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}What is a server composed of?}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}IT Terminology}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Problems with traditional IT approach}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}What is Cloud Computing?}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}You've been using some Could services}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}The Deployment Models of the Cloud}{6}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}The five characteristics of Cloud Computing}{6}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Six Advantages of Cloud Computing}{7}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Problems solved by the Could}{7}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Types of Cloud Computing}{8}{subsection.1.10}%
+\contentsline {subsection}{\numberline {1.11}Example of Cloud Computing Types}{9}{subsection.1.11}%
+\contentsline {subsection}{\numberline {1.12}Pricing of the Cloud - Quick Overview}{9}{subsection.1.12}%
+\contentsline {subsection}{\numberline {1.13}AWS Cloud History}{9}{subsection.1.13}%
+\contentsline {subsection}{\numberline {1.14}AWS Cloud Use Cases}{10}{subsection.1.14}%
+\contentsline {subsection}{\numberline {1.15}AWS Regions}{10}{subsection.1.15}%
+\contentsline {subsection}{\numberline {1.16}How to choose AWS Region?}{10}{subsection.1.16}%
+\contentsline {subsection}{\numberline {1.17}AWS Availability Zones}{11}{subsection.1.17}%
+\contentsline {subsection}{\numberline {1.18}Shared Responsibility Model Diagram}{11}{subsection.1.18}%
+\contentsline {subsection}{\numberline {1.19}AWS Acceptable Use Policy}{12}{subsection.1.19}%
+\contentsline {section}{\numberline {2}IAM - Identity and Access Management}{13}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Users \& Groups}{13}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Permissions}{13}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}IAM Policies inheritance}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}IAM Policies structure}{14}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}IAM Password Policy}{15}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Multi Factor Authentication - MFA}{15}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}MFA devices options in AWS}{16}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}How can users access AWS?}{16}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}What’s the AWS CLI?}{17}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}What’s the AWS SDK?}{17}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}IAM Roles for Services}{17}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}IAM Security Tools}{18}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}IAM Guidelines \& Best Practies}{18}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}Shared Responsibility Model for IAM}{19}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}IAM - Summary}{19}{subsection.2.15}%
+\contentsline {section}{\numberline {3}EC2 Section}{21}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Amazon EC2}{21}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}EC2 sizing \& configuration options}{21}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}EC2 User Data}{21}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}EC2 Instance Types - Overview}{22}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}EC2 Instance Types - General Purpose}{22}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}EC2 Instance Types - Compute Optimized}{22}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}EC2 Instance Types - Memory Optimized}{23}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}EC2 Instance Types - Storage Optimized}{23}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Introduction to Security Groups}{23}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Security Groups - Deeper Dive}{24}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Security Groups - Diagram}{24}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}Security Groups - Good to know}{24}{subsection.3.12}%
+\contentsline {subsection}{\numberline {3.13}Referencing other security groups - Diagram}{25}{subsection.3.13}%
+\contentsline {subsection}{\numberline {3.14}Classic Ports to know}{25}{subsection.3.14}%
+\contentsline {subsection}{\numberline {3.15}SSH Summary Table}{26}{subsection.3.15}%
+\contentsline {subsection}{\numberline {3.16}How to SSH into your EC2 Instance - Linux/Mac OS X}{26}{subsection.3.16}%
+\contentsline {subsection}{\numberline {3.17}EC2 Instance Connect}{26}{subsection.3.17}%
+\contentsline {subsection}{\numberline {3.18}EC2 instances Purchasing Options}{27}{subsection.3.18}%
+\contentsline {subsection}{\numberline {3.19}EC2 On Demand}{27}{subsection.3.19}%
+\contentsline {subsection}{\numberline {3.20}EC2 Reserved Instances}{28}{subsection.3.20}%
+\contentsline {subsection}{\numberline {3.21}EC2 Savings Plans}{28}{subsection.3.21}%
+\contentsline {subsection}{\numberline {3.22}EC2 Spot Instance}{28}{subsection.3.22}%
+\contentsline {subsection}{\numberline {3.23}EC2 Dedicated Hosts}{29}{subsection.3.23}%
+\contentsline {subsection}{\numberline {3.24}EC2 Dedicated Instances}{29}{subsection.3.24}%
+\contentsline {subsection}{\numberline {3.25}EC2 Capacity Reservations}{31}{subsection.3.25}%
+\contentsline {subsection}{\numberline {3.26}Which purchasing option is right for me}{31}{subsection.3.26}%
+\contentsline {subsection}{\numberline {3.27}AWS charges for IPv4 addresses}{31}{subsection.3.27}%
